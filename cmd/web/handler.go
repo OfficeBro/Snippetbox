@@ -17,6 +17,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 	files := []string{ //Slice of files to parse. The "base" file should be the first
 		"./ui/html/base.html",
+		"./ui/html/partials/nav.html",
 		"./ui/html/pages/home.html",
 	}
 
